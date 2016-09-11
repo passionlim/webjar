@@ -1,0 +1,3 @@
+{{#each menus}}
+<li {{#compare flag '==' 'NEW'}}class="flag"{{/compare}}><a href="{{linkURL}}" class="{{#if isOn}}on{{/if}}">{{#compare flag '==' 'NEW'}}<em class="new">NEW</em>{{/compare}}{{title}}</a></li>
+{{/each}}

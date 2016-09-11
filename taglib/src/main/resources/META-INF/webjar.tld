@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<taglib xmlns="http://java.sun.com/xml/ns/j2ee" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+	xsi:schemaLocation="http://java.sun.com/xml/ns/j2ee http://java.sun.com/xml/ns/j2ee/web-jsptaglibrary_2_0.xsd"
+	version="2.0">
+
+	<description>CJ oshopping WebJar JSP Tag Library</description>
+	<tlib-version>1.0</tlib-version>
+	<short-name>webjar</short-name>
+	<uri>http://cjoshopping.com/webjars</uri>
+
+	<tag>
+		<description>represent resource url in a acj oshopping webjar file.</description>
+		<name>res</name>
+		<tag-class>cj.oshopping.ecstatic.webjar.taglib.ResourceTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<description>protocol</description>
+			<name>protocol</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>phase</description>
+			<name>phase</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>artifactId of a webjar.</description>
+			<name>artifactId</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>baseUrl</description>
+			<name>baseUrl</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>a remain path from a baseUrl. a hash in a webjar can be applied in a src path.</description>
+			<name>src</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+
+	<tag>
+		<description>script tag with src in a acj oshopping webjar file.</description>
+		<name>script</name>
+		<tag-class>cj.oshopping.ecstatic.webjar.taglib.ScriptTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<description>protocol</description>
+			<name>protocol</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>phase</description>
+			<name>phase</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>artifactId of a webjar.</description>
+			<name>artifactId</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>baseUrl</description>
+			<name>baseUrl</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>a remain path from a baseUrl. a hash in a webjar can be applied in a src path.</description>
+			<name>src</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>script type. default is text/javascript</description>
+			<name>type</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>a boolean value to expose a phase in a script tag. true or false. default is true. </description>
+			<name>exportPhase</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+	<tag>
+		<description>script tag with src in a acj oshopping webjar file.</description>
+		<name>css</name>
+		<tag-class>cj.oshopping.ecstatic.webjar.taglib.CssTag</tag-class>
+		<body-content>JSP</body-content>
+		<attribute>
+			<description>protocol</description>
+			<name>protocol</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>phase</description>
+			<name>phase</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>artifactId of a webjar.</description>
+			<name>artifactId</name>
+			<required>true</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>baseUrl</description>
+			<name>baseUrl</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>a remain path from a baseUrl. a hash in a webjar can be applied in a src path.</description>
+			<name>src</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+		<attribute>
+			<description>script type. default is text/javascript</description>
+			<name>type</name>
+			<required>false</required>
+			<rtexprvalue>true</rtexprvalue>
+		</attribute>
+	</tag>
+
+</taglib>

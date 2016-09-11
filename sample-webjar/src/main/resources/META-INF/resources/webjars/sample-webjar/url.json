@@ -1,0 +1,26 @@
+{
+	"default": {
+		"baseUrl" : "http://dev.cdn.net/static/webjars/sample-webjar/",
+		"baseSslUrl" : "https://dev.cdn.net/static/webjars/sample-webjar/",
+		"useHash" : true,
+		"defaultPhase" : "dev",
+		"":""
+	},
+	"local": {
+		"baseUrl" : "http://localhost:8080/static/webjars/sample-webjar/",
+		"baseSslUrl" : "https://localhost:8443/static/webjars/sample-webjar/",
+		"useHash" : false,
+		"activated" : false,
+		"":""
+	},
+	"staging": {
+		"baseUrl" : "http://prod.cdn.net/static/webjars/sample-webjar/",
+		"baseSslUrl" : "https://dev.cdn.net/static/webjars/sample-webjar/",
+		"":""
+	},
+	"prod": {
+		"baseUrl" : "http://prod.cdn.net/static/webjars/sample-webjar/",
+		"baseSslUrl" : "https://dev.cdn.net/static/webjars/sample-webjar/",
+		"":""
+	}
+}

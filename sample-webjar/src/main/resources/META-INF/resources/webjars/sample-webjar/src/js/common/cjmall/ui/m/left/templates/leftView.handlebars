@@ -1,0 +1,46 @@
+<div id="wrapper_cate_left">
+	<dl class="n_left_log">
+		<dt>
+		</dt>
+		<dd>
+			{{#if isApp}}<a href="#" class="setup">설정</a>{{/if}}
+			<em></em>
+			<a href="#" class="close_leftmenu" spcid="btn_close">좌측메뉴 닫기</a>
+		</dd>
+	</dl>
+	
+	<div class="n_leftmenu_list" id="view">
+		<div class="scroller">
+			<div class="scrollTarget">
+				<div class="n_left_list">
+					<h3 class="blind">카테고리</h3>
+					<ul class="depth1_ctg">
+						<!-- include 카테고리 리스트 (common/cjmall/ui/m/left/templates/leftCategoryView.handlebars) -->
+					</ul>
+				</div>
+				
+				<div class="n_left_links">
+					<ul>
+						<li><a href="{{onmartDomain}}/mobile/index.do?pic=btn_onmart{{defaultAndParam}}" target="_blank"><span>온마트</span></a><em></em></li>
+						<li><a href="{{oliveyoungDomain}}/m/main.jsp?pic=btn_oliveyoung{{defaultAndParam}}" target="_blank"><span>올리브영</span></a><em></em></li>
+						<li><a href="{{firstlookDomain}}/m/main.jsp?pic=btn_1stlook{{defaultAndParam}}" target="_blank"><span>퍼스트룩</span></a><em></em></li>
+					</ul>
+				</div>
+				
+				<div class="n_left_recent">
+					<h3>
+						<span>최근 본 상품</span>
+						<a href="{{mobileUrl}}/m/recent.jsp?pic=viewed_all&pageTitle=최근%20본%20상품{{defaultAndParam}}" class="recent_all">전체보기</a>
+					</h3>
+					<ul>
+						<!-- include 최근 본 상품 리스트 (common/cjmall/ui/m/left/templates/leftRecentView.handlebars) -->
+					</ul>
+				</div>
+				
+				<div class="n_left_custom">
+					<a href="{{mobileUrl}}/m/customer_center/cc_main.jsp?pic=btn_cs{{defaultAndParam}}" class="go_custom">고객센터</a>
+				</div>
+			</div>
+		</div>
+	</div>
+</div>

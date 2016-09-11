@@ -1,0 +1,11 @@
+@charset "utf-8";
+
+html, body, div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, abbr, address, cite, code, del, dfn, em, img, strong, sub, sup, var, b, i, dl, dt, dd, ol, ul, li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead, tr, th, td, article, aside, canvas, details, figcaption, figure, footer, header, hgroup, menu, nav, section, summary, time, mark, audio, video, button, a 
+{margin:0;padding:0;border:0;background:transparent;font-family:'돋움',Dotum,'굴림',Gulim,Helvetica,sans-serif;}
+ul,ol,li { list-style:none;}
+a{text-decoration:none}
+table { border-collapse:collapse; border-spacing:0;}
+hr { display:none;}
+input, select, img { vertical-align:middle; margin:0; padding:0; -webkit-appearance:none;-webkit-border-radius:0}
+img { border:0 none; margin:0;}
+.blind,legend{overflow:hidden;position:absolute;top:0;left:0;width:1px;height:1px;font-size:0;line-height:100px;white-space:nowrap}

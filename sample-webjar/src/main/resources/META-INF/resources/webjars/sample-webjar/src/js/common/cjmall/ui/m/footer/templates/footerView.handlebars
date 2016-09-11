@@ -1,0 +1,38 @@
+<div id="o1h_footer_wrap" class="o1h_footer_wrap">
+	<div class="pad">
+		<div class="footer_infoArea">
+			<p>(주)씨제이오쇼핑 대표이사 허민회</p>
+			<ul>
+				<li><address>06761 서울시 서초구 과천대로 870-13 호스팅제공자:(주)CJ오쇼핑</address></li>
+				<li>사업자등록번호:106-81-51510 통신판매업신고:서초 제000015호</li>
+				<li><a href="http://www.ftc.go.kr/info/bizinfo/communicationView.jsp?apv_perm_no=1996321007630200015&area1=&area2=&currpage=1&searchKey=04&searchVal=1068151510" target="_blank"><span class="underline">사업자정보확인</span></a> 개인정보관리책임자:IT담당 양희영</li>
+				<li>webmaster@cjmall.com<a href="{{mobileUrl}}/m/common_include_sw/hanabank.jsp?app_cd={{appCd}}"><span class="underline2">하나은행 구매안전서비스</span></a><a href="tel://1644-2525" class="tel">1644-2525</a></li>
+			</ul>
+		</div>
+		<div class="footer_bottomArea">
+			<ul class="left69">
+				<li><a href="{{mobileUrl}}/m/faq/faq_content.jsp?pic=FM01&app_cd={{appCd}}">이용약관</a></li>
+				<li><a href="{{mobileUrl}}/m/faq/f_personal_info.jsp?pic=FM02&app_cd={{appCd}}"><b>개인정보취급방침</b></a></li>
+				<li><a href="{{mobileUrl}}/m/faq/f_privacy.jsp?pic=FM04&app_cd={{appCd}}">법적고지</a></li>
+				<li><a href="{{mobileUrl}}/m/faq/f_company_email.jsp?app_cd={{appCd}}">이메일 무단수집 거부</a></li>
+				<li><a href="http://www.cjmall.com/index_tab1.jsp?pic=FM03&app_cd={{appCd}}" target="_blank" class="pcVer">PC버전</a></li>
+				<li><a href="{{joinCJMember}}" target="_blank">회원가입</a></li> 
+				{{#if isLogin}}
+					<li><a href="{{mobileSslUrl}}/m/login/logout.jsp?pic=LM01&app_cd={{appCd}}">로그아웃</a></li>
+				{{^}}
+					<li><a href="{{mobileSslUrl}}/m/login/login.jsp?pic=LM01&app_cd={{appCd}}">로그인</a></li>
+				{{/if}}
+			</ul>
+		</div>
+	</div>
+</div>
+<nav class="n_btm_bar">
+	<ul>
+		<li><a href="{{cacheMobileURl}}/m/main.jsp?pic=home&app_cd={{appCd}}">홈</a></li>
+		<li><a href="#" class="o1h_util_cate" spcid="category">카테고리</a></li>
+		<li><a href="{{mobileUrl}}/m/search/searchMain?pic=search&app_cd={{appCd}}">검색</a></li>
+		<li><a href="{{mobileUrl}}/m/order/cart_main.jsp?pic=basket&app_cd={{appCd}}">장바구니</a></li>
+		<li><a href="{{mobileUrl}}/m/mycj/index.jsp?pic=myzone&app_cd={{appCd}}">마이존</a></li>
+		<li><a href="{{mobileUrl}}/m/recent.jsp?pic=latelyviewed&app_cd={{appCd}}&pageTitle=최근%20본%20상품">최근본상품</a></li>
+	</ul>
+</nav>
